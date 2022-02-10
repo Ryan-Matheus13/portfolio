@@ -52,6 +52,10 @@ body, html {
     width: 10rem;
 }
 
+.menu-icon {
+    display: none;
+}
+
 .block-menu {
     display: flex;
     justify-content: center;
@@ -120,14 +124,14 @@ header {
     color: #19A180;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 1.05rem;
 }
 
 .title {
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     width: 30rem;
-    font-size: 2.88rem;
+    font-size: 3.88rem;
     margin-bottom: 0.5rem;
 }
 
@@ -135,7 +139,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-size: 1.23rem;
     width: 35rem;
-    margin-bottom: 1.13rem;
+    margin-bottom: 2.13rem;
 }
 
 .introduction .contact-button {
@@ -150,25 +154,15 @@ header {
 .skills {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-    height: 35rem;
     padding-left: 1.56rem;
     padding-right: 1.56rem;
-    margin-bottom: 10rem;
     background-image: linear-gradient(to bottom, #232426 1rem, transparent );
 }
+
 .skills .text {
     margin-top: 7rem;
-}
-
-.skills .title {
-    width: auto;
-}
-
-.skills .content {
-    max-height: 20rem;
-    width: auto;
 }
 
 .icons {
@@ -193,9 +187,14 @@ header {
     height: 41.25rem;
 }
 
+.perfilimg {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .perfil {
     height: 100%;
-    width: 40%;
+    width: 80%;
 }
 
 .projects {
@@ -256,16 +255,19 @@ header {
     height: 100%;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
-.contact-text {
+.modal-content .title {
+    width: 90%;
+    text-align: center;
+}
+
+.contact-ilustration {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 40%;
-    height: 75%;
+    height: 55%;
 }
 
 .contact-text .title {
@@ -282,7 +284,7 @@ header {
     align-items: center;
     align-content: space-between;
     justify-content: space-between;
-    width: 40%;
+    width: 50%;
     height: 80%;
 }
 
@@ -373,8 +375,16 @@ footer {
 }
 
 .small {
-    position: relative;
+    display: flex;
     width: 50%;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-modal {
+    position: relative;
+    height: 40rem;
 }
 
 .small-square {
@@ -473,18 +483,19 @@ footer {
     }
 
     .small-square {
-        width: 10rem;
-        height: 10rem;
+        width: 11rem;
+        height: 11rem;
     }
 
     .card-icon {
-        width: 3rem;
+        width: 4rem;
     }
 }
 
-@media (max-width:1118px) {
-    .ilustration-intro {
-        width: 25rem;
+@media (max-width:1095px) {
+
+    .introduction .content {
+        width: 30rem;
     }
 
     .skills {
@@ -498,52 +509,231 @@ footer {
         width: 50%;
     }
 
-    .small-square {
-        background-color: #2d2e30;
-    }
-
     .skills .text {
         width: 50%;
+    }
+
+    
+}
+
+@media (max-width:1040px) {
+    header {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ilustration-intro {
+        width: 80%;
+        padding-bottom: 6rem;
+    }
+
+    .introduction {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 4rem;
+        width: 100%;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
+
+    .introduction .content, .content {
+        text-align: justify;
+        font-size: 1.53rem;
+        width: 100%;
+    }
+
+    .introduction .contact-button {
+        font-size: 1.4rem;
+        padding: 1.10rem 1.15rem;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .small {
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0;
+    }
+
+    .container-modal {
+        width: 50rem;
+        height: 45rem;
+    }
+
+    .small-square {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .card-icon {
+        width: 7rem;
+    }
+
+    .card-title {
+        font-size: 1.05rem;
+    }
+
+    .card-text {
+        font-size: 1.05rem;
     }
 
     .one {
         z-index: 1;
         top: 0rem;
+        left: 2rem;
+    }
+    
+    .two {
+        z-index: 1;
+        top: 3rem;
+        left: 35rem;
+    }
+    
+    .tree {
+        z-index: 1;
+        top: 25rem;
+        left: 35rem;
+        
+    }
+    
+    .four {
+        z-index: 1;
+        top: 22rem;
+        left: 2rem;
+        
+    }
+    
+    .oneb {
+        top: 1rem;
         left: 1rem;
+    }
+    
+    .twob{
+        top: 4rem;
+        left: 34rem;
+    }
+    
+    .treeb{
+        top: 26rem;
+        left: 34rem;
+    }
+    
+    .fourb{
+        top: 23rem;
+        left: 1rem;
+    }
+
+    .skills .text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .text .content {
+        text-align: justify;
+    }
+
+    .about {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+
+    }
+    .perfilimg {
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 3rem;
+    }
+    .perfil {
+        width: 70%;
+    }
+
+    .about-content {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .modal {
+        height: 60rem;
+        padding-top: 5rem;
+    }
+
+    .modal-content .title {
+        width: 95%;
+    }
+
+    .modal-square {
+        height: 60rem;
+    }
+
+    .contact-ilustration {
+        display: none;
+    }
+
+    .inputs {
+        width: 90%;
+        height: 70%;
+    }
+
+    .inputs input {
+        height: 4rem;
+    }
+}
+
+@media (max-width:858px) {
+    .small {
+        padding: 0;
+        height: 45rem;
+    }
+
+    .container-modal {
+        width: 37rem;
+    }
+
+    .small-square {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    .card-icon {
+        width: 3rem;
+    }
+
+    .card-title, .card-text {
+        font-size: 0.90rem;
     }
 
     .two {
-        top: 16rem;
-        left: 1rem;
+        z-index: 1;
+        top: 3rem;
+        left: 25rem;
     }
-
+    
     .tree {
-        top: 33rem;
-        left: 1rem;
+        z-index: 1;
+        top: 25rem;
+        left: 25rem;
     }
 
-    .four {
-        top: 50rem;
-        left: 1rem;
+    .twob{
+        top: 4rem;
+        left: 24rem;
     }
-
-    .oneb {
-        top: 1rem;
-        left: 0rem;
-    }
-
-    .twob {
-        top: 17rem;
-        left: 0rem;
-    }
-
-    .treeb {
-        top: 34rem;
-        left: 0rem;
-    }
-
-    .fourb {
-        top: 51rem;
-        left: 0rem;
+    
+    .treeb{
+        top: 26rem;
+        left: 24rem;
     }
 }
