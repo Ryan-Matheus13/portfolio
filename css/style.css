@@ -143,7 +143,7 @@ header {
     padding: 0.80rem 0.92rem;
 }
 
-img {
+.ilustration-intro {
     width: 40rem;
 }
 
@@ -156,7 +156,7 @@ img {
     padding-left: 1.56rem;
     padding-right: 1.56rem;
     margin-bottom: 10rem;
-    background-image: linear-gradient(to bottom, #232426f0 1rem, transparent );
+    background-image: linear-gradient(to bottom, #232426 1rem, transparent );
 }
 .skills .text {
     margin-top: 7rem;
@@ -468,30 +468,25 @@ footer {
 }
 
 @media (max-width:1235px) {
-    header {
-        flex-wrap: wrap-reverse;
-        justify-content: center;
+    .ilustration-intro {
+        width: 30rem;
     }
 
-    .introduction {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 65%;
+    .small-square {
+        width: 10rem;
+        height: 10rem;
     }
 
-    .introduction .title {
-        width: 100%;
+    .card-icon {
+        width: 3rem;
     }
-
-    .introduction .content  {
-        width: 100%;
-    }
-
-
 }
 
 @media (max-width:1118px) {
+    .ilustration-intro {
+        width: 25rem;
+    }
+
     .skills {
         flex-wrap: wrap;
         justify-content: flex-end;
