@@ -1,9 +1,10 @@
 import React from 'react'
+import './Button.css'
 
-const Button = () => {
+const Button = ( { className } ) => {
     return ( 
         <>
-            <button></button>
+            <button className={`contact-button ${className}` }>Contact Me</button>
         </>
      );
 }

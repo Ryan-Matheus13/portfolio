@@ -1,0 +1,24 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 30px;
+}
+
+.responsive-vector {
+    background-image: url('../images/responsive.svg');
+}
+
+.design-vector {
+    background-image: url('../images/grid.svg');
+}
+
+.criative-vector {
+    background-image: url('../images/brain.svg');
+}
+
+.code-vector {
+    background-image: url('../images/block.svg');
+}

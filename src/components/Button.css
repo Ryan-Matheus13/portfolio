@@ -1,1 +1,9 @@
-
+.contact-button {
+    font-weight: 500;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #19A180;
+    color: #DCDCDD;
+    font-size: 18px;
+}

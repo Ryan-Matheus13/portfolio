@@ -2,6 +2,7 @@ import React from 'react'
 import './Menu.css'
 
 import { FaInstagram, FaLinkedin, FaGithubSquare } from 'react-icons/fa'
+import Button from './Button';
 
 const Menu = () => {
     return ( 
@@ -16,6 +17,7 @@ const Menu = () => {
                     <li> <FaInstagram/> </li>
                     <li> <FaLinkedin/> </li>
                     <li> <FaGithubSquare/> </li>
+                    <Button className='menu-button' />
                 </ul>
             </nav>
         </>

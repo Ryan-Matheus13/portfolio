@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 70px 35px;
+}
+
+.title {
+    color: #dcdcdd;
+    font-size: 42px;
+    width: 100%;
+}
+
+.subtitle {
+    color: #19A180;
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+}
+
+.text-content {
+    color: #dcdcdd;
+    font-size: 20px;
+    width: 100%;
+}
