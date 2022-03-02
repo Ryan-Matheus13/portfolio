@@ -17,7 +17,7 @@ const Header = () => {
                         <p className='text-content'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam veritatis omnis voluptas repudiandae error, quod cum deserunt alias sunt asperiores, labore similique quas excepturi aut corporis porro rem, molestias nobis?</p>
                         <Button className='header-button' />
                     </Content>
-                    <div className='ilustration'></div>
+                    <div className='ilustration'/>
                 </div>
             </div>
         </>
