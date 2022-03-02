@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(187, 125, 43);
+    width: 100%;
+    padding: 20px;
+}
+
+ul, .menu-icons li, .menu-links li a {
+    display: flex;
+    align-items: center;
+    color: #DCDCDD;
+    padding: 0 15px;
+    font-size: 40px;
+}
+
+.menu-links li a {
+    font-size: 22px;
+}
