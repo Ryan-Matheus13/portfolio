@@ -1,8 +1,7 @@
 .projects {
     flex-wrap: wrap;
     align-content: center;
-    
-  }
+}
   
 .projects h1 {
     color: #dcdcdd;
@@ -14,9 +13,10 @@
 .coming-soon {
     background-image: url('../images/coming.svg');
     width: 100%;
-    min-height: 756px;
+    min-height: 606px;
     margin: 0 35px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+
