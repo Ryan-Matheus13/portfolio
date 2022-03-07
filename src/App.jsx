@@ -10,13 +10,15 @@ import Skills from './sections/Skills';
 
 const App = () => {
   return ( 
-    <div className='container' >
-      <Header/>
-      <Skills/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+    <div className='mask'>
+      <div className='container' >
+        <Header/>
+        <Skills/>
+        <About/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </div>
     </div>
    );
 }

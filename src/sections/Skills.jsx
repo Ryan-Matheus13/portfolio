@@ -9,10 +9,10 @@ const Skills = () => {
         <>
             <div className='content-container skills'>
                 <GroupCardSkills></GroupCardSkills>
-                <Content>
+                <Content margin='left'>
                     <h2 className='subtitle'>-Habilidades</h2>
                     <h1 className='title'>Por que me contratar para o próximo projeto?</h1>
-                    <p className='text-content'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam veritatis omnis voluptas repudiandae error, quod cum deserunt alias sunt asperiores, labore similique quas excepturi aut corporis porro rem, molestias nobis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam veritatis omnis voluptas repudiandae error, quod cum deserunt alias sunt asperiores, labore similique quas excepturi aut corporis porro rem, molestias nobis?</p>
+                    <p className='text-content'>Sou um programador flexível e me adapto muito facil as adversidades que podem ocorrer em qualquer projeto, sou focado, aprendo rápido, criativo e profissional. Se você me contratar não vai se arrepender do resultado entregue, será um código limpo e de fácil manutenção ou update futuro, moderno e responsivo no caso de sites. Quer saber mais um pouco sobre min? então basta só continuar explorando o portfólio abaixo.</p>
                 </Content>
             </div>
         </>

@@ -4,6 +4,10 @@
     width: 100%;
 }
 
+.header {
+    margin-top: 0;
+}
+
 .header-button {
     margin-top: 10px;
 }
