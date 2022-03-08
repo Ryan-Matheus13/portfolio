@@ -1,11 +1,17 @@
 .email, .text, .textarea, .phone {
-    width: 70%;
+    width: 80%;
     height: 50px;
-    border: 3px solid #19A180;
+    border: none;
+    border-bottom: 2px solid #46494C;
+    color: #46494C;
     background-color: transparent;
-    margin: 5px 35px;
-    border-radius: 5px;
+    margin: 5px 0;
     padding-left: 10px;
+}
+
+.email:focus, .text:focus, .textarea:focus, .phone:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 .email::placeholder, .text::placeholder, .textarea::placeholder, .phone::placeholder {
@@ -16,4 +22,7 @@
 .textarea {
     height: 90px;
     padding: 0;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
 }

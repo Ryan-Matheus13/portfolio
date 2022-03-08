@@ -8,16 +8,16 @@ const Menu = () => {
     return ( 
         <>
             <nav>
-                <ul className='menu-links'>
+                <ul data-aos='fade-down' className='menu-links'>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
-                <ul className='menu-icons'>
+                <ul data-aos='fade-down' className='menu-icons'>
                     <li> <FaInstagram/> </li>
                     <li> <FaLinkedin/> </li>
                     <li> <FaGithubSquare/> </li>
-                    <Button className='menu-button' />
+                    <Button className='menu-button'>Entrar em contato</Button>
                 </ul>
             </nav>
         </>

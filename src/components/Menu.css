@@ -3,6 +3,7 @@ nav {
     justify-content: space-between;
     width: 100%;
     padding: 20px;
+    text-decoration: none;
 }
 
 ul, .menu-icons li, .menu-links li a {

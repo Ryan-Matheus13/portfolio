@@ -1,0 +1,9 @@
+.perfil {
+    background-image: url('../images/perfil.svg');
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 35px;
+}

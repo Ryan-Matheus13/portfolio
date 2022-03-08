@@ -1,9 +1,11 @@
 import React from 'react'
 
-const InputTextarea = () => {
+import './InputContact.css'
+
+const InputTextarea = ( { type, placeholder } ) => {
     return ( 
         <>
-            <textarea name="descricao" ></textarea>
+            <textarea className={type} name="descricao" placeholder={placeholder} ></textarea>
         </>
      );
 }

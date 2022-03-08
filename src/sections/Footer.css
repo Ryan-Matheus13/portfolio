@@ -1,0 +1,15 @@
+.footer {
+    justify-content: space-between;
+    background-color: rgb(29, 29, 29);
+    background-image: linear-gradient(to right, #8d8d8d0b 1px, transparent 1px),
+    linear-gradient(to top, #8d8d8d0b 1px, transparent 1px);
+    background-size: 3px 3px;
+    color: #dcdcdd;
+    min-height: 20px;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.footer p {
+    margin-left: 30px;
+}

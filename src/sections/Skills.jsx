@@ -2,12 +2,13 @@ import React from 'react'
 
 import Content from '../components/Content';
 import GroupCardSkills from '../components/GroupCardSkills';
+
 import './Skills.css'
 
 const Skills = () => {
     return ( 
         <>
-            <div className='content-container skills'>
+            <div data-aos='fade-up' className='content-container skills'>
                 <GroupCardSkills></GroupCardSkills>
                 <Content margin='left'>
                     <h2 className='subtitle'>-Habilidades</h2>

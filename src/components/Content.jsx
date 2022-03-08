@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 import './Content.css'
 
-const Content = ( { children, margin } ) => {
+const Content = ( { children, margin, anim } ) => {
     let classcss
 
     if (margin == 'right') {
@@ -12,9 +16,13 @@ const Content = ( { children, margin } ) => {
         classcss = 'content'
     }
 
+    useEffect(() => {
+        Aos.init({ duration: 1000 })
+    }, [])
+
     return ( 
         <>
-            <div margin={margin} className={classcss}>
+            <div data-aos={anim} margin={margin} className={classcss}>
                 { children }
             </div>
         </>

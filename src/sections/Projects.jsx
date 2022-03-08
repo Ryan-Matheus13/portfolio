@@ -5,12 +5,12 @@ import './Projects.css'
 const Projects = () => {
     return ( 
         <>
-            <div className='content-container projects'>
+            <div data-aos='fade-up' className='content-container projects'>
                 <h1>Projetos</h1>
                 <div className='coming-soon'/>
             </div>
         </>
      );
 }
- 
+
 export default Projects;

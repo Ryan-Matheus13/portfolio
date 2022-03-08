@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
+import Aos from 'aos'
 
 import './App.css'
 import About from './sections/About';
@@ -9,6 +11,9 @@ import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 
 const App = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   return ( 
     <div className='mask'>
       <div className='container' >

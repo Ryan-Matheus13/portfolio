@@ -9,16 +9,16 @@
   font-family: 'DM Sans', sans-serif;
 }
 
-body, html {
+body {
   z-index: -2;
   background-color: #46494C;
-  width: 100%;
+  min-width: 100%;
 }
 
 .mask {
   z-index: 2;
   position: absolute;
-  width: 100%;
+  min-width: 100%;
   min-height: 100%;
   background-image: linear-gradient(to right, #d6d3cf0b 1px, transparent 1px),
   linear-gradient(to top, #d6d3cf0b 1px, transparent 1px);
@@ -52,7 +52,7 @@ p {
   margin: 30px 35px;
 }
 
-.ilustration, .perfil {
+.ilustration{
   background-image: url('./images/ilustration.svg');
   width: 50%;
   height: 100%;
@@ -62,7 +62,7 @@ p {
   margin-left: 35px;
 }
 
-.perfil {
-  background-image: url('./images/perfil.svg');
-}
+
+
+
 

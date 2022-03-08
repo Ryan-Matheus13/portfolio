@@ -3,10 +3,10 @@ import React from 'react'
 import CardSkills from './CardSkills';
 import './GroupCardSkills.css'
 
-const GroupCardSkills = () => {
+const GroupCardSkills = ( {anim} ) => {
     return ( 
         <>
-            <div className='card-container'>
+            <div data-aos={anim} className='card-container'>
                 <CardSkills>
                     <div className='vector responsive-vector'></div>
                     <h3 className='card-title'>RESPONSIVIDADE</h3>
