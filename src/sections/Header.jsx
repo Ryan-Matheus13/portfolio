@@ -3,13 +3,15 @@ import Button from '../components/Button';
 
 import Content from '../components/Content';
 import Menu from '../components/Menu';
+import Menutoggle from '../components/MenuToggle';
 import './Header.css'
 
 const Header = () => {
     return ( 
         <>
             <div className='header-container'>
-                <Menu/>
+                <Menu className='menu' />
+                <Menutoggle/>
                 <div className='content-container header'>
                     <Content anim='fade-right' margin='right' className='introduction'>
                         <h2 className='subtitle'>-Introdução</h2>
