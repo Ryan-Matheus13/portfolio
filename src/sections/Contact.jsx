@@ -8,7 +8,7 @@ import Button from '../components/Button'
 const Contact = () => {
     return ( 
         <>
-            <div className='contact-container'>
+            <div className='contact-container' id='contact'>
                 <div data-aos='fade-up' className='content-container contact'>
                     <div className='ilustration-contact' />
                     <form className='content-contact'>
@@ -16,7 +16,7 @@ const Contact = () => {
                         <InputContact name='email' type='email' placeholder='Email'/>
                         <InputContact name='assunto' type='text' placeholder='Assunto'/>
                         <InputTextarea name='descricao' type='textarea' placeholder='Descrição'/>
-                        <InputContact name='telefone' type='phone' placeholder='+55 (00) 0 0000-0000'/>
+                        <InputContact name='telefone' type='phone' placeholder='Whatsapp'/>
                         <Button type='submit'>Enviar proposta</Button>
                     </form>
                 </div>

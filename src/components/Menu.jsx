@@ -9,9 +9,9 @@ const Menu = () => {
         <>
             <nav>
                 <ul data-aos='fade-down' className='menu-links'>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
                 <ul data-aos='fade-down' className='menu-icons'>
                     <li> <FaInstagram/> </li>

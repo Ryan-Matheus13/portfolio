@@ -6,7 +6,7 @@ import Content from '../components/Content';
 const About = () => {
     return ( 
         <>
-            <div className='content-container about'>
+            <div className='content-container about' id='about'>
                 <Content anim='fade-right' margin='right'>
                     <h2 className='subtitle'>-Sobre Min</h2>
                     <h1 className='title'>Um pouco mais sobre min.</h1>
