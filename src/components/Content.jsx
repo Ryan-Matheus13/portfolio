@@ -8,9 +8,9 @@ import './Content.css'
 const Content = ( { children, margin, anim } ) => {
     let classcss
 
-    if (margin == 'right') {
+    if (margin === 'right') {
         classcss = 'content right'
-    } else if(margin == 'left') {
+    } else if(margin === 'left') {
         classcss = 'content left'
     } else {
         classcss = 'content'
