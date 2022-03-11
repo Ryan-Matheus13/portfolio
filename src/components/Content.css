@@ -35,3 +35,11 @@
     font-size: 20px;
     width: 100%;
 }
+
+@media (max-width: 750px) {
+    .content {
+        height: 50%;
+        width: 100%;
+        margin: 0;
+    }
+}

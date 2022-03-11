@@ -23,3 +23,10 @@
 .code-vector {
     background-image: url('../images/block.svg');
 }
+
+@media (max-width: 750px) {
+    .card-container {
+        width: 100%;
+        height: 50%;
+    }
+}

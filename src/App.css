@@ -41,6 +41,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  height: auto;
 }
 
 .content-container {
@@ -48,7 +49,6 @@ p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 350px;
   margin: 30px 35px;
 }
 
@@ -60,6 +60,23 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 35px;
+}
+
+
+@media (max-width: 750px) {
+
+  .content-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 800px;
+  }
+
+  .ilustration {
+    height: 50%;
+    width: 100%;
+    margin: 0;
+  }
+  
 }
 
 

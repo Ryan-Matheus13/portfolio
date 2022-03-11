@@ -7,3 +7,15 @@
     background-position: center;
     margin-left: 35px;
 }
+
+@media (max-width: 750px) {
+    .perfil {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+}
