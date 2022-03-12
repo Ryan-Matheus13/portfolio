@@ -1,0 +1,11 @@
+
+@media (max-width: 750px) {
+    .skills {
+        flex-wrap: wrap;
+        min-height: 800px;
+        max-height: 1635px;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+}

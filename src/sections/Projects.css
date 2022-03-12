@@ -21,3 +21,8 @@
     margin-bottom: 70px;
 }
 
+@media (max-width: 750px) {
+    .coming-soon {
+        min-height: 200px;
+    }
+}

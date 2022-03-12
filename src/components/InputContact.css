@@ -26,3 +26,11 @@
     padding-top: 10px;
     padding-left: 10px;
 }
+
+@media (max-width: 750px) {
+    .email, .text, .textarea, .phone {
+        font-size: 1rem;
+    }
+
+    
+}

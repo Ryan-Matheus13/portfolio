@@ -8,3 +8,9 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+@media (max-width: 750px) {
+    .contact-button {
+        font-size: 22px;
+    }
+}

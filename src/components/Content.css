@@ -21,6 +21,7 @@
     color: #dcdcdd;
     font-size: 42px;
     width: 100%;
+    height: auto;
 }
 
 .subtitle {
@@ -28,18 +29,35 @@
     font-weight: 400;
     font-size: 16px;
     width: 100%;
+    height: auto;
 }
 
 .text-content {
     color: #dcdcdd;
     font-size: 20px;
     width: 100%;
+    height: auto;
 }
 
 @media (max-width: 750px) {
     .content {
-        height: 50%;
         width: 100%;
+        height: 60%;
         margin: 0;
+        padding: 0;
+        align-content: flex-start;
+        flex: 1;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .text-content {
+        font-size: 18px;
     }
 }

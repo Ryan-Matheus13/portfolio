@@ -5,7 +5,7 @@
     linear-gradient(to top, #8d8d8d0b 1px, transparent 1px);
     background-size: 3px 3px;
     color: #dcdcdd;
-    min-height: 20px;
+    max-height: 20px;
     padding: 15px 0;
     margin: 0;
 }
@@ -13,4 +13,15 @@
 .footer p {
     margin-left: 30px;
     font-size: 14px;
+}
+
+@media (max-width: 750px) {
+    .menu-icons {
+        display: none;
+    }
+
+    .footer p {
+        width: 100%;
+        text-align: center;
+    }
 }
