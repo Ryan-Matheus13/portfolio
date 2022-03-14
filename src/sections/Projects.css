@@ -23,6 +23,12 @@
 
 @media (max-width: 750px) {
     .coming-soon {
-        min-height: 200px;
+        min-height: 300px;
+    }
+
+    .projects {
+        height: 350px;
+        align-content: flex-start;
+        margin-bottom: 100px;
     }
 }

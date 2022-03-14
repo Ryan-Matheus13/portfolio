@@ -46,9 +46,9 @@
     }
 
     .header {
-        min-height: 650px;
-        max-height: 950px;
+        height: 800px;
         flex-wrap: wrap-reverse;
+        margin: 10px 15px;
     }
 
     .ilustration {
