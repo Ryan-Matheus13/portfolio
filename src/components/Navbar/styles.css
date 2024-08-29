@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 1.5rem;
+}
+.navbar ul {
+  display: flex;
+  height: 100%;
+  padding: 0.5rem 4rem;
+  background-color: #262626;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  border-radius: 0.5rem;
+}
+.navbar li,
+.navbar button {
+  font-family: "Audiowide", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar li:hover {
+  color: #87cd50;
+}
+.navbar li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #87cd50;
+  transition: width 0.3s;
+}
+
+.navbar li:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.navbar button {
+  height: 2.5rem;
+  padding: 0 1.5rem;
+  background-color: #87cd50;
+  border: none;
+  border-radius: 0.75rem;
+}

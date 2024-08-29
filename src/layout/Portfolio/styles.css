@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.content {
+  /* background-color: green; */
+  flex: 1;
+  overflow-y: scroll;
+}
