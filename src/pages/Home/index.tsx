@@ -49,24 +49,32 @@ export default function Home() {
           <ServiceCard
             Icon={() => <img src={IconWebsite} className="service-card-icon" />}
             title={"Front-end Developer"}
-            description={"Lorem ashduiasghdiu asbdygyugvd asdbuysbcnc"}
+            description={
+              "Creating intuitive and responsive user interfaces, focusing on the best visual and interactive experience for your visitors."
+            }
           />
           <ServiceCard
             Icon={() => <img src={IconMobile} className="service-card-icon" />}
             title={"Mobile Developer"}
-            description={"Lorem ashduiasghdiu asbdygyugvd asdbuysbcnc"}
+            description={
+              "Developing optimized and functional mobile applications, designed to provide a seamless user experience on any device."
+            }
           />
           <ServiceCard
             Icon={() => <img src={IconWebsite} className="service-card-icon" />}
             title={"Back-end Developer"}
-            description={"Lorem ashduiasghdiu asbdygyugvd asdbuysbcnc"}
+            description={
+              "Building robust and scalable systems to ensure your data and functionalities are secure and efficient."
+            }
           />
           <ServiceCard
             Icon={() => (
               <img src={IconWebdesign} className="service-card-icon" />
             )}
             title={"Website Design"}
-            description={"Lorem ashduiasghdiu asbdygyugvd asdbuysbcnc"}
+            description={
+              "Designing attractive and modern websites, blending aesthetics and functionality to enhance your online presence."
+            }
           />
         </div>
       </section>
@@ -76,10 +84,44 @@ export default function Home() {
         </div>
         <div className="about-content">
           <p>About Me</p>
-          <h2>ABOUT ME IN 10 SECONDS</h2>
+          <h2>Hi! My name is Ryan Matheus</h2>
+          <p>
+            A dedicated Fullstack Developer based in Teresina, PI. With a strong
+            foundation in computer science, currently pursuing a Bachelor's
+            degree at Estácio CEUT, I have developed a robust skill set in both
+            front-end and back-end development. My professional journey has
+            provided me with diverse experiences across various industries,
+            allowing me to adapt quickly and deliver high-quality solutions.
+          </p>
+          <p>
+            I'm in the final stages of completing my Bachelor's degree in
+            Computer Science at Estácio CEUT, where I've gained in-depth
+            knowledge of software development, data structures, algorithms, and
+            more.
+          </p>
+          <p>
+            I am proficient in a wide range of technologies including HTML, CSS,
+            JavaScript, TypeScript, React, NextJs, and VueJs for front-end
+            development. On the back end, I have experience with Node.js,
+            Express, and NestJs, along with database management using SQL and
+            NoSQL. I am well-versed in creating responsive and accessible web
+            applications, implementing RESTful APIs, and integrating third-party
+            services. My skills extend to DevOps, with knowledge in Docker,
+            Kubernetes, and cloud platforms like AWS.
+          </p>
+          <p>
+            My goal is to leverage my expertise in both front-end and back-end
+            development to create impactful software solutions that enhance user
+            experiences and streamline business processes. I aim to continuously
+            grow my skill set, stay updated with the latest technologies, and
+            contribute effectively to the success of innovative projects.
+          </p>
         </div>
       </section>
-      <section>{/* projetos */}</section>
+      <section className="projects">
+        <p>My Projects</p>
+        <h2>MY RECENT PROJECTS</h2>
+      </section>
       <section>{/* contate me */}</section>
     </div>
   );
